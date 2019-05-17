@@ -13,7 +13,7 @@
         <module>admin</module>
         <module>admin-front</module>
         <module>admin-front-v2</module>
-        <module>client</module>
+        <module>client-javafx</module>
     </modules>
 
     <properties>
