@@ -1,0 +1,37 @@
+<div class="tutu fixed-bottom">
+
+  <img [src]="transform()">
+
+  <select class="form-control">
+    <option disabled>--- Identity ---</option>
+  </select>
+  <button type="button" color="primary" class="relative waves-light" (click)="show()"><img
+    src="https://img.icons8.com/cotton/64/000000/plus.png"></button>
+
+  <div class="overlay" *ngIf="open">
+    <div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title w-100" id="myModalLabel">Create Identity</h4>
+            <button type="button" class="close float-right" aria-label="Close" (click)="hide()">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First/Last name">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" aria-label="Close" (click)="hide()">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.navbar {
+  z-index: 4;
+}
+
+footer {
+  z-index: 4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
