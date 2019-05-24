@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">android-face-qualification</string>
+    <string name="dummy_content">FACE\nQUALIFICATION</string>
+</resources>

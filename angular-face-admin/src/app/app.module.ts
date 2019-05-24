@@ -8,10 +8,12 @@ import {TabComponent} from './tab/tab.component';
 import {AppComponent} from './app.component';
 import {FaceComponent} from "./face/face.component";
 import {HomeComponent} from './home/home.component';
+import {ModalComponent} from './common/modal/modal.component';
 import {IdentitiesComponent} from './identities/identities.component';
 
 @NgModule({
   declarations: [
+    ModalComponent,
     AppComponent,
     TabsComponent,
     TabComponent,
